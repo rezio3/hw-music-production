@@ -21,7 +21,9 @@ const AboutMe = () => {
 					<a href="https://www.facebook.com/hubertwalkowskicomposer">
 						<button className="about-me-section__btn">
 							Sprawdź{" "}
-							<span class="material-symbols-outlined arrow">navigate_next</span>
+							<span className="material-symbols-outlined arrow">
+								navigate_next
+							</span>
 						</button>
 					</a>
 				</div>
