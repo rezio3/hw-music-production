@@ -18,12 +18,13 @@ const AboutMe = () => {
 						pariatur necessitatibus natus nemo expedita sed odio suscipit eaque.
 						Quisquam quo eum sint recusandae aliquid aperiam ipsum.
 					</p>
-					<a href="https://www.facebook.com/hubertwalkowskicomposer">
-						<button className="about-me-section__btn">
+
+					<button className="about-me-section__btn">
+						<a href="https://www.facebook.com/hubertwalkowskicomposer">
 							Sprawdź{" "}
 							<span class="material-symbols-outlined arrow">navigate_next</span>
-						</button>
-					</a>
+						</a>
+					</button>
 				</div>
 			</div>
 		</section>

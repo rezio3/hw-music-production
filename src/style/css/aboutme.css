@@ -38,6 +38,10 @@
   color: white;
   cursor: pointer;
 }
+.about-me-section__btn a {
+  text-decoration: none;
+  color: white;
+}
 .about-me-section__btn .arrow {
   position: relative;
   top: 6px;
