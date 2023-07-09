@@ -7,7 +7,7 @@ const AboutMe = () => {
 		<section className="about-me-section">
 			<img src={portraitImg} width={500} className="about-me-section__img" />
 			<div className="about-me-section__text">
-				<h2 className="about-me-section__header">O mnie</h2>
+				<h2 className="about-me-section__header">BIO</h2>
 				<p className="about-me-section__details">
 					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
 					doloremque? Aliquam, modi veritatis! Non explicabo praesentium culpa
@@ -17,6 +17,10 @@ const AboutMe = () => {
 					necessitatibus natus nemo expedita sed odio suscipit eaque. Quisquam
 					quo eum sint recusandae aliquid aperiam ipsum.
 				</p>
+				<button className="about-me-section__btn">
+					Sprawdź{" "}
+					<span class="material-symbols-outlined arrow">navigate_next</span>
+				</button>
 			</div>
 		</section>
 	);
