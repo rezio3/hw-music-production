@@ -1,15 +1,18 @@
 .about-me-section {
-	// height: 400px;
+	padding: 100px 0;
 	width: 100%;
-	display: flex;
-	justify-content: center;
 	background-color: black;
 	font-family: "Inder", sans-serif;
+	&__container {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
 	&__text {
-		margin-top: 100px;
 		width: 500px;
 		display: flex;
 		flex-direction: column;
+		justify-content: space-between;
 		margin-left: 40px;
 	}
 	&__header {
@@ -24,7 +27,6 @@
 		line-height: 26px;
 	}
 	&__img {
-		margin: 100px 0;
 	}
 	&__btn {
 		position: relative;
@@ -35,6 +37,7 @@
 		background: none;
 		border: none;
 		color: white;
+		cursor: pointer;
 		.arrow {
 			position: relative;
 			top: 6px;
@@ -62,5 +65,13 @@
 		border-bottom: 1px solid white;
 		border-right: 1px solid white;
 		transition: 0.3s ease-in-out;
+	}
+	&__btn:hover::before {
+		width: 20%;
+		height: 60%;
+	}
+	&__btn:hover::after {
+		width: 20%;
+		height: 60%;
 	}
 }

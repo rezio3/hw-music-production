@@ -1,15 +1,19 @@
 .about-me-section {
+  padding: 100px 0;
   width: 100%;
-  display: flex;
-  justify-content: center;
   background-color: black;
   font-family: "Inder", sans-serif;
 }
+.about-me-section__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 .about-me-section__text {
-  margin-top: 100px;
   width: 500px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   margin-left: 40px;
 }
 .about-me-section__header {
@@ -23,9 +27,6 @@
   font-size: 16px;
   line-height: 26px;
 }
-.about-me-section__img {
-  margin: 100px 0;
-}
 .about-me-section__btn {
   position: relative;
   margin-top: 50px;
@@ -35,6 +36,7 @@
   background: none;
   border: none;
   color: white;
+  cursor: pointer;
 }
 .about-me-section__btn .arrow {
   position: relative;
@@ -62,4 +64,12 @@
   border-bottom: 1px solid white;
   border-right: 1px solid white;
   transition: 0.3s ease-in-out;
+}
+.about-me-section__btn:hover::before {
+  width: 20%;
+  height: 60%;
+}
+.about-me-section__btn:hover::after {
+  width: 20%;
+  height: 60%;
 }
