@@ -32,7 +32,6 @@
 	}
 	&__btn {
 		position: relative;
-		margin-top: 50px;
 		padding: 20px 5px 25px 20px;
 		width: 200px;
 		font-family: "Montserrat", sans-serif;
@@ -42,15 +41,19 @@
 		border: none;
 		color: white;
 		cursor: pointer;
-		a {
-			text-decoration: none;
-			color: white;
-		}
+
 		.arrow {
 			position: relative;
 			top: 6px;
 			color: white;
 		}
+	}
+	a {
+		display: block;
+		margin-top: 50px;
+		width: 200px;
+		text-decoration: none;
+		color: white;
 	}
 	&__btn::before {
 		content: "";
