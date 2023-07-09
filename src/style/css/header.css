@@ -40,8 +40,9 @@
 }
 .header-container .lower-header__dash {
   height: 2px;
-  width: 100%;
+  width: 172px;
   border: 1px solid white;
+  animation: dash-anim 0.5s 1s forwards ease-out;
 }
 .header-container .lower-header__composer {
   margin-left: 30px;
@@ -76,5 +77,13 @@
   }
   100% {
     opacity: 1;
+  }
+}
+@keyframes dash-anim {
+  0% {
+    width: 120px;
+  }
+  100% {
+    width: 172px;
   }
 }
