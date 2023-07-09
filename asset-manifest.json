@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/hw-music-production/static/css/main.31d1a3b8.css",
-    "main.js": "/hw-music-production/static/js/main.85a83aaa.js",
+    "main.css": "/hw-music-production/static/css/main.5f35dce4.css",
+    "main.js": "/hw-music-production/static/js/main.f1937010.js",
+    "static/media/hw-bio-img.jpg": "/hw-music-production/static/media/hw-bio-img.40b799c4f20ee3615ec0.jpg",
     "static/media/hw-logo.png": "/hw-music-production/static/media/hw-logo.1817cdffde061c8575ee.png",
     "index.html": "/hw-music-production/index.html",
-    "main.31d1a3b8.css.map": "/hw-music-production/static/css/main.31d1a3b8.css.map",
-    "main.85a83aaa.js.map": "/hw-music-production/static/js/main.85a83aaa.js.map"
+    "main.5f35dce4.css.map": "/hw-music-production/static/css/main.5f35dce4.css.map",
+    "main.f1937010.js.map": "/hw-music-production/static/js/main.f1937010.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d1a3b8.css",
-    "static/js/main.85a83aaa.js"
+    "static/css/main.5f35dce4.css",
+    "static/js/main.f1937010.js"
   ]
 }
