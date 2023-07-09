@@ -11,13 +11,51 @@
 		list-style: none;
 		height: 100%;
 		&__button {
+			position: relative;
 			margin: 0 30px;
 			padding: 10px;
-			font-family: 300px;
+			font-weight: 300;
 			font-size: 14px;
 			text-transform: uppercase;
 			color: white;
 			cursor: pointer;
+		}
+		&__button::before {
+			content: "";
+			position: absolute;
+			width: 0%;
+			height: 0%;
+			top: 0;
+			left: 0;
+			// background-color: white;
+			border-top: 0px solid white;
+			border-left: 0px solid white;
+			transition: 0.3s ease-in-out;
+		}
+		&__button::after {
+			content: "";
+			position: absolute;
+			width: 0%;
+			height: 0%;
+			right: 0;
+			bottom: 0;
+			// background-color: white;
+			border-bottom: 0px solid white;
+			border-right: 0px solid white;
+			transition: 0.3s ease-in-out;
+		}
+
+		&__button:hover::before {
+			border-top: 1px solid white;
+			border-left: 1px solid white;
+			height: 50%;
+			width: 30%;
+		}
+		&__button:hover::after {
+			border-bottom: 1px solid white;
+			border-right: 1px solid white;
+			height: 50%;
+			width: 30%;
 		}
 	}
 }

@@ -13,11 +13,46 @@
   height: 100%;
 }
 .nav-container .nav-buttons__button {
+  position: relative;
   margin: 0 30px;
   padding: 10px;
-  font-family: 300px;
+  font-weight: 300;
   font-size: 14px;
   text-transform: uppercase;
   color: white;
   cursor: pointer;
+}
+.nav-container .nav-buttons__button::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 0%;
+  top: 0;
+  left: 0;
+  border-top: 0px solid white;
+  border-left: 0px solid white;
+  transition: 0.3s ease-in-out;
+}
+.nav-container .nav-buttons__button::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 0%;
+  right: 0;
+  bottom: 0;
+  border-bottom: 0px solid white;
+  border-right: 0px solid white;
+  transition: 0.3s ease-in-out;
+}
+.nav-container .nav-buttons__button:hover::before {
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  height: 50%;
+  width: 30%;
+}
+.nav-container .nav-buttons__button:hover::after {
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  height: 50%;
+  width: 30%;
 }
