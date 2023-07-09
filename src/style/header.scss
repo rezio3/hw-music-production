@@ -16,7 +16,11 @@
 		rgba(68, 68, 68, 1) 0%,
 		rgba(0, 0, 0, 1) 100%
 	);
+	&__logo-wrapper {
+		height: 112.5px;
+	}
 	&__logo {
+		// display: none;
 		position: relative;
 		bottom: 80px;
 		width: 150px;

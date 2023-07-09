@@ -13,6 +13,9 @@
   background: rgb(68, 68, 68);
   background: linear-gradient(0deg, rgb(68, 68, 68) 0%, rgb(0, 0, 0) 100%);
 }
+.header-container__logo-wrapper {
+  height: 112.5px;
+}
 .header-container__logo {
   position: relative;
   bottom: 80px;

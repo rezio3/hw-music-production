@@ -5,7 +5,9 @@ import logoImg from "../img/hw-logo.png";
 const Header = () => {
 	return (
 		<div className="header-container">
-			<img src={logoImg} className="header-container__logo" />
+			<div className="header-container__logo-wrapper">
+				<img src={logoImg} className="header-container__logo" />
+			</div>
 			<h1 className="header-container__name">Hubert Walkowski</h1>
 			<div className="lower-header">
 				<div className="lower-header__dash"></div>
