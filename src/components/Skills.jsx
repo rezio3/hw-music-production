@@ -26,7 +26,7 @@ const Skills = () => {
 				</li>
 				<li className="skills-container__skill">
 					<FontAwesomeIcon icon={faMusic} className="icon" />
-					<span>Theater</span>
+					<span>Orchestra</span>
 				</li>
 			</ul>
 		</section>
