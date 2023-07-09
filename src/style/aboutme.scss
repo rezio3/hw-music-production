@@ -1,6 +1,27 @@
 .about-me-section {
-	height: 400px;
+	// height: 400px;
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	background-color: black;
+	&__text {
+		margin-top: 100px;
+		width: 500px;
+		display: flex;
+		flex-direction: column;
+		margin-left: 40px;
+	}
+	&__header {
+		font-size: 30px;
+		color: white;
+		margin-bottom: 50px;
+	}
+	&__details {
+		color: white;
+		font-size: 14px;
+		line-height: 26px;
+	}
+	&__img {
+		margin: 100px 0;
+	}
 }
