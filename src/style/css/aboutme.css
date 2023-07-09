@@ -2,7 +2,7 @@
   padding: 100px 0;
   width: 100%;
   background-color: black;
-  font-family: "Inder", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .about-me-section__container {
   width: 100%;
@@ -19,12 +19,14 @@
 .about-me-section__header {
   margin-bottom: 50px;
   font-size: 30px;
+  font-weight: 600;
   letter-spacing: 4px;
   color: white;
 }
 .about-me-section__details {
   color: white;
   font-size: 16px;
+  font-weight: 200;
   line-height: 26px;
 }
 .about-me-section__btn {
@@ -32,7 +34,9 @@
   margin-top: 50px;
   padding: 20px 5px 25px 20px;
   width: 200px;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
+  font-weight: 400;
   background: none;
   border: none;
   color: white;
@@ -70,10 +74,10 @@
   transition: 0.3s ease-in-out;
 }
 .about-me-section__btn:hover::before {
-  width: 20%;
-  height: 60%;
+  width: 30%;
+  height: 50%;
 }
 .about-me-section__btn:hover::after {
-  width: 20%;
-  height: 60%;
+  width: 30%;
+  height: 50%;
 }

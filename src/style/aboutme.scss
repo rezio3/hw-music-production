@@ -2,7 +2,7 @@
 	padding: 100px 0;
 	width: 100%;
 	background-color: black;
-	font-family: "Inder", sans-serif;
+	font-family: "Montserrat", sans-serif;
 	&__container {
 		width: 100%;
 		display: flex;
@@ -18,12 +18,14 @@
 	&__header {
 		margin-bottom: 50px;
 		font-size: 30px;
+		font-weight: 600;
 		letter-spacing: 4px;
 		color: white;
 	}
 	&__details {
 		color: white;
 		font-size: 16px;
+		font-weight: 200;
 		line-height: 26px;
 	}
 	&__img {
@@ -33,7 +35,9 @@
 		margin-top: 50px;
 		padding: 20px 5px 25px 20px;
 		width: 200px;
+		font-family: "Montserrat", sans-serif;
 		font-size: 20px;
+		font-weight: 400;
 		background: none;
 		border: none;
 		color: white;
@@ -71,11 +75,11 @@
 		transition: 0.3s ease-in-out;
 	}
 	&__btn:hover::before {
-		width: 20%;
-		height: 60%;
+		width: 30%;
+		height: 50%;
 	}
 	&__btn:hover::after {
-		width: 20%;
-		height: 60%;
+		width: 30%;
+		height: 50%;
 	}
 }
