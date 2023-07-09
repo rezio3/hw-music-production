@@ -4,6 +4,7 @@
 	display: flex;
 	justify-content: center;
 	background-color: black;
+	font-family: "Inder", sans-serif;
 	&__text {
 		margin-top: 100px;
 		width: 500px;
@@ -12,16 +13,54 @@
 		margin-left: 40px;
 	}
 	&__header {
-		font-size: 30px;
-		color: white;
 		margin-bottom: 50px;
+		font-size: 30px;
+		letter-spacing: 4px;
+		color: white;
 	}
 	&__details {
 		color: white;
-		font-size: 14px;
+		font-size: 16px;
 		line-height: 26px;
 	}
 	&__img {
 		margin: 100px 0;
+	}
+	&__btn {
+		position: relative;
+		margin-top: 50px;
+		padding: 20px 5px 25px 20px;
+		width: 200px;
+		font-size: 20px;
+		background: none;
+		border: none;
+		color: white;
+		.arrow {
+			position: relative;
+			top: 6px;
+			color: white;
+		}
+	}
+	&__btn::before {
+		content: "";
+		position: absolute;
+		width: 40%;
+		height: 40%;
+		top: 0;
+		left: 0;
+		border-top: 1px solid white;
+		border-left: 1px solid white;
+		transition: 0.3s ease-in-out;
+	}
+	&__btn::after {
+		content: "";
+		position: absolute;
+		width: 40%;
+		height: 40%;
+		right: 0;
+		bottom: 0;
+		border-bottom: 1px solid white;
+		border-right: 1px solid white;
+		transition: 0.3s ease-in-out;
 	}
 }
