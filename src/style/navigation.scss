@@ -1,0 +1,23 @@
+.nav-container {
+	position: fixed;
+	top: 0;
+	height: 100px;
+	width: 100%;
+	.nav-buttons {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		margin-right: 150px;
+		list-style: none;
+		height: 100%;
+		&__button {
+			margin: 0 30px;
+			padding: 10px;
+			font-family: 300px;
+			font-size: 14px;
+			text-transform: uppercase;
+			color: white;
+			cursor: pointer;
+		}
+	}
+}
