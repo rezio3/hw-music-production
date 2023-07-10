@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/hw-music-production/static/css/main.fe3a9f2e.css",
-    "main.js": "/hw-music-production/static/js/main.788cdf58.js",
+    "main.css": "/hw-music-production/static/css/main.b70372b2.css",
+    "main.js": "/hw-music-production/static/js/main.39d96693.js",
+    "static/media/music-box-8.png": "/hw-music-production/static/media/music-box-8.340754db022f7c9966ac.png",
+    "static/media/music-box-7.png": "/hw-music-production/static/media/music-box-7.99250445b48b663d05ce.png",
+    "static/media/music-box-4.png": "/hw-music-production/static/media/music-box-4.486598a1b725beb7829d.png",
     "static/media/hw-bio-img.jpg": "/hw-music-production/static/media/hw-bio-img.40b799c4f20ee3615ec0.jpg",
+    "static/media/music-box-3.png": "/hw-music-production/static/media/music-box-3.4c7eba29d2607730c6c2.png",
+    "static/media/music-box-2.png": "/hw-music-production/static/media/music-box-2.7182d66c7e327dda905d.png",
+    "static/media/music-box-5.png": "/hw-music-production/static/media/music-box-5.ec19defcc97468d29b0a.png",
+    "static/media/music-box-6.png": "/hw-music-production/static/media/music-box-6.614678ba880fbaee01c3.png",
+    "static/media/music-box-1.png": "/hw-music-production/static/media/music-box-1.6e781e4784c2cabe1a08.png",
     "static/media/hw-logo.png": "/hw-music-production/static/media/hw-logo.1817cdffde061c8575ee.png",
     "index.html": "/hw-music-production/index.html",
-    "main.fe3a9f2e.css.map": "/hw-music-production/static/css/main.fe3a9f2e.css.map",
-    "main.788cdf58.js.map": "/hw-music-production/static/js/main.788cdf58.js.map"
+    "main.b70372b2.css.map": "/hw-music-production/static/css/main.b70372b2.css.map",
+    "main.39d96693.js.map": "/hw-music-production/static/js/main.39d96693.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe3a9f2e.css",
-    "static/js/main.788cdf58.js"
+    "static/css/main.b70372b2.css",
+    "static/js/main.39d96693.js"
   ]
 }
