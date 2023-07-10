@@ -1,6 +1,7 @@
 import "./App.css";
 import AboutMe from "./components/AboutMe";
 import Header from "./components/Header";
+import Music from "./components/Music";
 import Navigation from "./components/Navigation";
 import Skills from "./components/Skills";
 
@@ -11,6 +12,7 @@ function App() {
 			<Header />
 			<AboutMe />
 			<Skills />
+			<Music />
 		</div>
 	);
 }
