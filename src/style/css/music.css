@@ -1,6 +1,10 @@
+@charset "UTF-8";
 .music-section {
-  background-color: black;
   height: 1400px;
+  background-color: black;
+  padding-top: 100px;
+  /* Kolor samego paska przewijania */
+  /* Pasek przewijania po najechaniu myszką */
 }
 .music-section .music-boxes-container {
   display: grid;
@@ -9,6 +13,7 @@
   overscroll-behavior-inline: contain;
 }
 .music-section .music-boxes-container__music-box {
+  display: flex;
   width: 700px;
   height: 620px;
   background-size: cover;
@@ -36,4 +41,14 @@
 }
 .music-section .music-boxes-container .box-8 {
   background-image: url(../../img/music-box-8.png);
+}
+.music-section ::-webkit-scrollbar {
+  width: 0.5em;
+  background-color: #ffffff; /* Kolor tła strony */
+}
+.music-section ::-webkit-scrollbar-thumb {
+  background-color: #383838;
+}
+.music-section ::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
 }

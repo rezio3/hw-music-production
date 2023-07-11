@@ -1,7 +1,27 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "../style/css/music.css";
+// import { TweenMax } from "gsap/gsap-core";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+// gsap.registerPlugin(ScrollTrigger);
 
 const Music = () => {
+	// const scrollContainer = useRef(null);
+	// console.log(scrollContainer);
+	// useEffect(() => {
+	// 	let el = scrollContainer.current;
+	// 	gsap.to(el, {
+	// 		xPercent: -10,
+	// 		ease: "none",
+	// 		scrollTrigger: {
+	// 			trigger: ".music-boxes-container",
+	// 			pin: true,
+	// 			scrub: 1,
+	// 			end: "+=10",
+	// 		},
+	// 	});
+	// }, []);
 	return (
 		<section className="music-section">
 			<div className="music-boxes-container">
