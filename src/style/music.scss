@@ -1,9 +1,9 @@
 .music-section {
 	height: 1400px;
 	background-color: black;
-	padding-top: 100px;
 
 	.music-boxes-container {
+		padding: 100px;
 		// display: flex;
 		display: grid;
 		grid-auto-flow: column;
@@ -12,10 +12,12 @@
 		overscroll-behavior-inline: contain;
 		// scroll-snap-type: x mandatory;
 		&__music-box {
+			margin: 100px 70px;
 			display: flex;
 			width: 700px;
 			height: 620px;
 			background-size: cover;
+			box-shadow: 0px 0px 0px 10px white;
 		}
 		.box-1 {
 			background-image: url(../../img/music-box-1.png);
