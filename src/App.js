@@ -1,5 +1,6 @@
 import "./App.css";
 import AboutMe from "./components/AboutMe";
+import Contact from "./components/Contact";
 import Header from "./components/Header";
 import Music from "./components/Music";
 import Navigation from "./components/Navigation";
@@ -13,6 +14,7 @@ function App() {
 			<AboutMe />
 			<Skills />
 			<Music />
+			<Contact />
 		</div>
 	);
 }
