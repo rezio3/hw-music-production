@@ -1,48 +1,84 @@
 .music-section {
-	height: 1400px;
-	background-color: black;
+	position: relative;
+	overflow-x: hidden;
+	background: linear-gradient(
+		0deg,
+		rgba(68, 68, 68, 1) 0%,
+		rgba(0, 0, 0, 1) 100%
+	);
+	padding: 150px 0;
 
 	.music-boxes-container {
-		padding: 100px;
-		// display: flex;
 		display: grid;
 		grid-auto-flow: column;
-		// width: 5600px;
-		overflow-x: auto;
-		overscroll-behavior-inline: contain;
-		// scroll-snap-type: x mandatory;
+		position: relative !important;
+		top: 0 !important;
+		padding: 70px 0;
+
 		&__music-box {
-			margin: 100px 70px;
+			position: relative;
+			margin: 0px 30px;
 			display: flex;
-			width: 700px;
-			height: 620px;
-			background-size: cover;
-			box-shadow: 0px 0px 0px 10px white;
+			width: 460px;
+			height: 400px;
+			background-size: 100%;
+			background-position: 50%;
+			transition: 0.2s;
+			// box-shadow: 0px 0px 50px 5px white;
+
+			.box-header {
+				color: white;
+				position: absolute;
+				bottom: -80px;
+				text-transform: uppercase;
+			}
 		}
-		.box-1 {
-			background-image: url(../../img/music-box-1.png);
+		&__music-box:hover {
+			background-size: 105%;
+			box-shadow: 0px 0px 20px 0px rgb(128, 128, 128);
 		}
-		.box-2 {
-			background-image: url(../../img/music-box-2.png);
-		}
-		.box-3 {
-			background-image: url(../../img/music-box-3.png);
-		}
-		.box-4 {
-			background-image: url(../../img/music-box-4.png);
-		}
-		.box-5 {
-			background-image: url(../../img/music-box-5.png);
-		}
-		.box-6 {
-			background-image: url(../../img/music-box-6.png);
-		}
-		.box-7 {
-			background-image: url(../../img/music-box-7.png);
-		}
-		.box-8 {
-			background-image: url(../../img/music-box-8.png);
-		}
+	}
+	.music-boxes-container:first-child {
+		padding-top: 0;
+	}
+	.music-boxes-container:last-child {
+		padding-bottom: 0;
+	}
+	.music-boxes-container1 {
+		position: relative;
+		left: 840px;
+	}
+	.music-boxes-container2 {
+		position: relative;
+		right: 770px;
+	}
+	.music-boxes-container3 {
+		position: relative;
+		left: 840px;
+	}
+	.box-1 {
+		background-image: url(../../img/music-box-1.png);
+	}
+	.box-2 {
+		background-image: url(../../img/music-box-2.png);
+	}
+	.box-3 {
+		background-image: url(../../img/music-box-3.png);
+	}
+	.box-4 {
+		background-image: url(../../img/music-box-4.png);
+	}
+	.box-5 {
+		background-image: url(../../img/music-box-5.png);
+	}
+	.box-6 {
+		background-image: url(../../img/music-box-6.png);
+	}
+	.box-7 {
+		background-image: url(../../img/music-box-7.png);
+	}
+	.box-8 {
+		background-image: url(../../img/music-box-8.png);
 	}
 	::-webkit-scrollbar {
 		width: 0.5em;
