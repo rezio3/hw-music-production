@@ -80,18 +80,18 @@
 	.box-8 {
 		background-image: url(../../img/music-box-8.png);
 	}
-	::-webkit-scrollbar {
-		width: 0.5em;
-		background-color: #ffffff; /* Kolor tła strony */
-	}
+	// ::-webkit-scrollbar {
+	// 	width: 0.5em;
+	// 	background-color: #ffffff; /* Kolor tła strony */
+	// }
 
-	/* Kolor samego paska przewijania */
-	::-webkit-scrollbar-thumb {
-		background-color: #383838;
-	}
+	// /* Kolor samego paska przewijania */
+	// ::-webkit-scrollbar-thumb {
+	// 	background-color: #383838;
+	// }
 
-	/* Pasek przewijania po najechaniu myszką */
-	::-webkit-scrollbar-thumb:hover {
-		background-color: #555;
-	}
+	// /* Pasek przewijania po najechaniu myszką */
+	// ::-webkit-scrollbar-thumb:hover {
+	// 	background-color: #555;
+	// }
 }
