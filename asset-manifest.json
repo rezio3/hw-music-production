@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hw-music-production/static/css/main.20401a94.css",
+    "main.css": "/hw-music-production/static/css/main.59ee6c56.css",
     "main.js": "/hw-music-production/static/js/main.bdfc3c93.js",
     "static/media/music-box-8.png": "/hw-music-production/static/media/music-box-8.340754db022f7c9966ac.png",
     "static/media/music-box-7.png": "/hw-music-production/static/media/music-box-7.99250445b48b663d05ce.png",
@@ -13,11 +13,11 @@
     "static/media/music-box-1.png": "/hw-music-production/static/media/music-box-1.6e781e4784c2cabe1a08.png",
     "static/media/hw-logo.png": "/hw-music-production/static/media/hw-logo.1817cdffde061c8575ee.png",
     "index.html": "/hw-music-production/index.html",
-    "main.20401a94.css.map": "/hw-music-production/static/css/main.20401a94.css.map",
+    "main.59ee6c56.css.map": "/hw-music-production/static/css/main.59ee6c56.css.map",
     "main.bdfc3c93.js.map": "/hw-music-production/static/js/main.bdfc3c93.js.map"
   },
   "entrypoints": [
-    "static/css/main.20401a94.css",
+    "static/css/main.59ee6c56.css",
     "static/js/main.bdfc3c93.js"
   ]
 }
