@@ -9,6 +9,7 @@ const AboutMe = () => {
 				<img src={portraitImg} width={500} className="about-me-section__img" />
 				<div className="about-me-section__text">
 					<h2 className="about-me-section__header">BIO</h2>
+					<div className="about-me-section__spacer"></div>
 					<p className="about-me-section__details">
 						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
 						doloremque? Aliquam, modi veritatis! Non explicabo praesentium culpa

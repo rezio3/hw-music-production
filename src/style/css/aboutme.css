@@ -17,11 +17,17 @@
   margin-left: 80px;
 }
 .about-me-section__header {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   font-size: 30px;
   font-weight: 600;
   letter-spacing: 4px;
   color: white;
+}
+.about-me-section__spacer {
+  margin-bottom: 20px;
+  width: 120px;
+  height: 4px;
+  background-color: #fff;
 }
 .about-me-section__details {
   color: white;

@@ -16,11 +16,17 @@
 		margin-left: 80px;
 	}
 	&__header {
-		margin-bottom: 50px;
+		margin-bottom: 10px;
 		font-size: 30px;
 		font-weight: 600;
 		letter-spacing: 4px;
 		color: white;
+	}
+	&__spacer {
+		margin-bottom: 20px;
+		width: 120px;
+		height: 4px;
+		background-color: #fff;
 	}
 	&__details {
 		color: white;
