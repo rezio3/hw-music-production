@@ -10,7 +10,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1500px;
 }
 .skills-section .skills-container__skill {
   display: flex;
@@ -19,13 +19,13 @@
   align-items: center;
 }
 .skills-section .skills-container__skill .icon {
-  font-size: 50px;
+  font-size: 70px;
   color: rgb(0, 0, 0);
 }
 .skills-section .skills-container__skill span {
   font-family: "Montserrat", sans-serif;
   margin-top: 25px;
-  font-size: 25px;
-  font-weight: 600;
+  font-size: 35px;
+  font-weight: 400;
   color: rgb(0, 0, 0);
 }

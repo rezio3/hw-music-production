@@ -9,21 +9,21 @@
 		justify-content: space-between;
 		align-items: center;
 		width: 100%;
-		max-width: 1200px;
+		max-width: 1500px;
 		&__skill {
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
 			.icon {
-				font-size: 50px;
+				font-size: 70px;
 				color: rgb(0, 0, 0);
 			}
 			span {
 				font-family: "Montserrat", sans-serif;
 				margin-top: 25px;
-				font-size: 25px;
-				font-weight: 600;
+				font-size: 35px;
+				font-weight: 400;
 				color: rgb(0, 0, 0);
 			}
 		}
