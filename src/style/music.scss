@@ -28,19 +28,23 @@
 		}
 		&__music-box:hover {
 			background-size: 105%;
-			// box-shadow: 0px 0px 20px 0px rgb(128, 128, 128);
+		}
+		&__music-box:hover .music-boxes-container__shadow {
+			opacity: 1;
 		}
 		&__shadow {
 			display: flex;
 			align-items: flex-end;
 			width: 100%;
 			height: 200px;
+			opacity: 0;
 			background: linear-gradient(
 				0deg,
 				rgb(0, 0, 0) 0%,
 				rgb(0, 0, 0) 20%,
 				rgba(0, 0, 0, 0) 100%
 			);
+			transition: 1s ease-out;
 			.box-text {
 				position: relative;
 				bottom: 0;
@@ -50,7 +54,7 @@
 				text-align: center;
 				color: rgb(255, 255, 255);
 				font-size: 14px;
-				text-transform: uppercase;
+				// text-transform: uppercase;
 			}
 		}
 	}
