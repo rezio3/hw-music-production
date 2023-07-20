@@ -5,6 +5,7 @@
   width: 100%;
   background: linear-gradient(0deg, rgb(68, 68, 68) 0%, rgb(0, 0, 0) 100%);
   padding: 100px 0;
+  font-family: "Montserrat", sans-serif;
 }
 .music-section__header {
   margin: 50px 0;
@@ -40,7 +41,7 @@
 .music-section .music-boxes-container__box-footer {
   position: absolute;
   bottom: -30px;
-  color: aliceblue;
+  color: rgb(255, 255, 255);
 }
 .music-section .music-boxes-container__shadow {
   display: flex;
