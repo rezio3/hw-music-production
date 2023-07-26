@@ -9,11 +9,13 @@ const MusicBox = (props) => {
 		const observer = new IntersectionObserver((entries) => {
 			const entry = entries[0];
 
-			if (entry.isIntersecting) {
-				setAnim(props.class + " music-box-anim-in");
-				setAnimDone(true);
-			} else if (!animDone) {
-				setAnim(props.class);
+			if (!animDone) {
+				if (entry.isIntersecting) {
+					setAnim(props.class + " music-box-anim-in");
+					setAnimDone(true);
+				} else if (animDone) {
+					setAnim(props.class);
+				}
 			}
 		});
 		observer.observe(musicBoxes.current);
