@@ -25,12 +25,12 @@
 		bottom: 80px;
 		width: 150px;
 		opacity: 0;
-		animation: logo-anim 1s 0.5s forwards ease-out;
+		animation: logo-anim 1.7s 0.8s forwards ease-out;
 	}
 	&__name {
 		font-weight: 900;
 		font-size: 70px;
-		animation: header-name-anim 1.5s forwards ease-out;
+		animation: header-name-anim 2s forwards ease-out;
 	}
 	.lower-header {
 		position: relative;
@@ -38,14 +38,14 @@
 		justify-content: space-between;
 		align-items: center;
 		width: 820px;
-		top: 10px;
+		// top: 10px;
 		opacity: 0;
-		animation: lower-header-anim 0.5s 1s forwards ease-out;
+		animation: lower-header-anim 1s 1.3s forwards ease-out;
 		&__dash {
 			height: 2px;
 			width: 172px;
 			border: 1px solid white;
-			animation: dash-anim 0.5s 1s forwards ease-out;
+			animation: dash-anim 1s 1.3s forwards ease-out;
 		}
 		&__composer {
 			margin-left: 30px;
@@ -68,7 +68,7 @@
 @keyframes lower-header-anim {
 	0% {
 		opacity: 0;
-		top: 10px;
+		// top: 10px;
 	}
 	100% {
 		opacity: 1;
