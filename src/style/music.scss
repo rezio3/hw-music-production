@@ -31,6 +31,7 @@
 			align-items: flex-end;
 			width: 460px;
 			height: 400px;
+			opacity: 0;
 			background-size: 100%;
 			background-position: 50%;
 			transition: 0.5s ease-out;
@@ -70,6 +71,20 @@
 			}
 		}
 	}
+	.music-box-anim-in {
+		animation: music-box-anim 1s 0.1s forwards;
+	}
+	@keyframes music-box-anim {
+		from {
+			top: 100px;
+			opacity: 0;
+		}
+		to {
+			top: 0;
+			opacity: 1;
+		}
+	}
+
 	.box-1 {
 		background-image: url(../../img/music-box-1.png);
 	}
