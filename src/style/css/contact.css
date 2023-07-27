@@ -1,5 +1,63 @@
 .contact-section {
   width: 100%;
-  height: 1200px;
-  background-color: rgb(255, 230, 234);
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+  font-family: "Montserrat", sans-serif;
+}
+.contact-section .contact-container {
+  max-width: 1280px;
+  margin: 200px 0;
+}
+.contact-section .contact-container__header {
+  font-size: 30px;
+  color: white;
+}
+.contact-section .contact-container__btn {
+  position: relative;
+  margin-top: 50px;
+  padding: 20px 5px 25px 20px;
+  width: 200px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  background: none;
+  border: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.contact-section .contact-container__btn .arrow {
+  position: relative;
+  top: 6px;
+  color: rgb(255, 255, 255);
+}
+.contact-section .contact-container__btn::before {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  top: 0;
+  left: 0;
+  border-top: 1px solid rgb(255, 255, 255);
+  border-left: 1px solid rgb(255, 255, 255);
+  transition: 0.3s ease-in-out;
+}
+.contact-section .contact-container__btn::after {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  right: 0;
+  bottom: 0;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  border-right: 1px solid rgb(255, 255, 255);
+  transition: 0.3s ease-in-out;
+}
+.contact-section .contact-container__btn:hover::before {
+  width: 30%;
+  height: 50%;
+}
+.contact-section .contact-container__btn:hover::after {
+  width: 30%;
+  height: 50%;
 }
