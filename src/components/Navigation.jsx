@@ -25,6 +25,13 @@ const Navigation = () => {
 			behavior: "smooth",
 		});
 	};
+	const scrollDownContact = () => {
+		scrollTo({
+			top: 5700,
+			left: 0,
+			behavior: "smooth",
+		});
+	};
 	return (
 		<nav className="nav-container">
 			<ul className="nav-buttons">
@@ -37,7 +44,9 @@ const Navigation = () => {
 				<li className="nav-buttons__button" onClick={scrollDownFilm}>
 					Film & TV
 				</li>
-				<li className="nav-buttons__button">Kontakt</li>
+				<li className="nav-buttons__button" onClick={scrollDownContact}>
+					Kontakt
+				</li>
 			</ul>
 		</nav>
 	);
