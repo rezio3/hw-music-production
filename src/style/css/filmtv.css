@@ -1,0 +1,90 @@
+.film-and-tv-section {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+}
+.film-and-tv-section__header {
+  margin: 100px 0;
+  font-size: 120px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+.film-and-tv-section__spacer {
+  margin-bottom: 50px;
+  width: 120px;
+  height: 4px;
+  background-color: black;
+}
+.film-and-tv-section .film-and-tv-content {
+  position: relative;
+  margin-bottom: 230px;
+  width: 900px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.film-and-tv-section .film-and-tv-content__text {
+  width: 600px;
+  line-height: 40px;
+}
+.film-and-tv-section .film-and-tv-content .tv-icon {
+  position: absolute;
+  right: 90px;
+  top: -10px;
+  font-size: 350px;
+  opacity: 0.2;
+  pointer-events: none;
+}
+.film-and-tv-section .film-and-tv-content__btn {
+  position: relative;
+  margin-top: 50px;
+  padding: 20px 5px 25px 20px;
+  width: 200px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  background: none;
+  border: none;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.film-and-tv-section .film-and-tv-content__btn .arrow {
+  position: relative;
+  top: 6px;
+  color: rgb(0, 0, 0);
+}
+.film-and-tv-section .film-and-tv-content__btn::before {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  top: 0;
+  left: 0;
+  border-top: 1px solid rgb(0, 0, 0);
+  border-left: 1px solid rgb(0, 0, 0);
+  transition: 0.3s ease-in-out;
+}
+.film-and-tv-section .film-and-tv-content__btn::after {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  right: 0;
+  bottom: 0;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  border-right: 1px solid rgb(0, 0, 0);
+  transition: 0.3s ease-in-out;
+}
+.film-and-tv-section .film-and-tv-content__btn:hover::before {
+  width: 30%;
+  height: 50%;
+}
+.film-and-tv-section .film-and-tv-content__btn:hover::after {
+  width: 30%;
+  height: 50%;
+}
