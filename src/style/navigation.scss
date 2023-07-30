@@ -4,6 +4,12 @@
 	height: 100px;
 	width: 100%;
 	z-index: 2;
+	background: linear-gradient(
+		0deg,
+		rgba(109, 109, 109, 0) 0%,
+		rgb(32, 32, 32) 100%
+	);
+	// background-color: black;
 	.nav-buttons {
 		display: flex;
 		justify-content: flex-end;
