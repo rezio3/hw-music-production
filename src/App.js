@@ -2,6 +2,7 @@ import "./App.css";
 import AboutMe from "./components/AboutMe";
 import Contact from "./components/Contact";
 import FilmAndTV from "./components/FilmAndTV";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Music from "./components/Music";
 import Navigation from "./components/Navigation";
@@ -17,6 +18,7 @@ function App() {
 			<Music />
 			<FilmAndTV />
 			<Contact />
+			<Footer />
 		</div>
 	);
 }
