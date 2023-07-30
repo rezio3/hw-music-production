@@ -6,10 +6,16 @@
   font-family: "Montserrat", sans-serif;
 }
 .contact-section .contact-container {
-  max-width: 1280px;
+  max-width: 450px;
+  width: 100%;
   margin: 200px 0;
 }
+.contact-section .contact-container__span {
+  font-size: 24px;
+  color: white;
+}
 .contact-section .contact-container__header {
+  margin-top: 50px;
   font-size: 30px;
   color: white;
 }
@@ -60,4 +66,25 @@
 .contact-section .contact-container__btn:hover::after {
   width: 30%;
   height: 50%;
+}
+.contact-section .contact-container__mail, .contact-section .contact-container__phone {
+  margin-top: 15px;
+}
+.contact-section .contact-container-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.contact-section .contact-container-right .mail-icon,
+.contact-section .contact-container-right .phone-icon {
+  position: relative;
+  top: 7px;
+  margin-right: 20px;
+  color: white;
+  font-size: 30px;
+  pointer-events: none;
+}
+.contact-section .contact-container-right .contact-span {
+  color: white;
+  font-size: 18px;
 }
