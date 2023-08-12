@@ -9,11 +9,19 @@ const Footer = () => {
 			</div>
 
 			<div className="footer-container__socials">
-				<i className="fa-brands fa-instagram"></i>
-				<i className="fa-brands fa-facebook"></i>
-				<i className="fa-brands fa-youtube"></i>
+				<a href="https://www.instagram.com/hubert_walkowski/">
+					<i className="fa-brands fa-instagram"></i>
+				</a>
+				<a href="https://www.facebook.com/hubertwalkowskicomposer">
+					<i className="fa-brands fa-facebook"></i>
+				</a>
+				<a href="https://www.youtube.com/@hubertwalkowski931">
+					<i className="fa-brands fa-youtube"></i>
+				</a>
 				<i className="fa-brands fa-tiktok"></i>
-				<i className="fa-brands fa-soundcloud"></i>
+				<a href="https://soundcloud.com/hubert-walkowski-95">
+					<i className="fa-brands fa-soundcloud"></i>
+				</a>
 			</div>
 		</div>
 	);
