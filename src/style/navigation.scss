@@ -4,11 +4,9 @@
 	height: 100px;
 	width: 100%;
 	z-index: 2;
-	background: linear-gradient(
-		0deg,
-		rgba(109, 109, 109, 0) 0%,
-		rgb(32, 32, 32) 100%
-	);
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+	// background-image: url(../../img/Rectangle.svg);
+	// background-image: url(../../img/Rectangle2.png);
 	// background-color: black;
 	.nav-buttons {
 		display: flex;
