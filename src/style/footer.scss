@@ -2,9 +2,25 @@
 	width: 100%;
 	max-width: 900px;
 	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
 	background-color: black;
-	span {
-		color: white;
-		font-size: 40px;
+
+	&__copyright-container {
+		span {
+			display: block;
+			padding-bottom: 20px;
+			font-family: "Montserrat", sans-serif;
+			font-size: 14px;
+			color: white;
+		}
+	}
+	&__socials {
+		.fa-brands {
+			padding: 10px 10px 20px;
+			color: white;
+			font-size: 30px;
+		}
 	}
 }
