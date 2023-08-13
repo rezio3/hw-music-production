@@ -9,10 +9,14 @@ const Contact = () => {
 					Chcesz nawiązać współpracę?
 				</span>
 				<h2 className="contact-container__header">Skontaktuj się</h2>
-				<button className="contact-container__btn">
-					Napisz{" "}
-					<span className="material-symbols-outlined arrow">navigate_next</span>
-				</button>
+				<a href="mailto:huberto956@gmail.com">
+					<button className="contact-container__btn">
+						Napisz{" "}
+						<span className="material-symbols-outlined arrow">
+							navigate_next
+						</span>
+					</button>
+				</a>
 			</div>
 			<div className="contact-container contact-container-right">
 				<div className="contact-container__mail">
