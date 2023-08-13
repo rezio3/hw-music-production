@@ -16,6 +16,7 @@ const Music = () => {
 							class={e.className}
 							txt1={e.txt1}
 							txt2={e.txt2}
+							txt3={e.txt3}
 							key={e.id}
 						/>
 					);

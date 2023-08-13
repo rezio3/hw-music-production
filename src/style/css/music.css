@@ -46,6 +46,9 @@
   bottom: -30px;
   color: rgb(255, 255, 255);
 }
+.music-section .music-boxes-container__box-footer .box-description {
+  font-size: 14px;
+}
 .music-section .music-boxes-container__shadow {
   display: flex;
   flex-direction: column;

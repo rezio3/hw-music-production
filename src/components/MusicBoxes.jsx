@@ -20,8 +20,7 @@ const MusicBox = (props) => {
 		});
 		observer.observe(musicBoxes.current);
 	}, []);
-
-	console.log(anim);
+	console.log(props);
 	return (
 		<div className={anim} ref={musicBoxes}>
 			<div className="music-boxes-container__shadow">
@@ -29,7 +28,7 @@ const MusicBox = (props) => {
 				<span className="box-text">{props.txt2}</span>
 			</div>
 			<div className="music-boxes-container__box-footer">
-				<p>Eloo</p>
+				<span className="box-description">{props.txt3}</span>
 			</div>
 		</div>
 	);
