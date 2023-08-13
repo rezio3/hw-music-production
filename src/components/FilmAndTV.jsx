@@ -17,12 +17,14 @@ const FilmAndTV = () => {
 						perferendis cupiditate laboriosam! Totam odit cupiditate ullam in,
 						quam rem commodi similique dicta aperiam blanditiis hic.
 					</p>
-					<button className="film-and-tv-content__btn">
-						Sprawdź{" "}
-						<span className="material-symbols-outlined arrow">
-							navigate_next
-						</span>
-					</button>
+					<a href="https://www.youtube.com/@hubertwalkowski931">
+						<button className="film-and-tv-content__btn">
+							Sprawdź{" "}
+							<span className="material-symbols-outlined arrow">
+								navigate_next
+							</span>
+						</button>
+					</a>
 				</div>
 
 				<span class="material-symbols-outlined tv-icon">smart_display</span>
